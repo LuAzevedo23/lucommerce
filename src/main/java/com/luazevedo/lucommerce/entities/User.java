@@ -16,7 +16,7 @@ public class User {
 
     private String name;
 
-    @Column(unique = true)
+    @Column(unique = true) //necessario para não repetir email, sendo campo unico.
     private String email;
     private String phone;
     private LocalDate birthdate;
